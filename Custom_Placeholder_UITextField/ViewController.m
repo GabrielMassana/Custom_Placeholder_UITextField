@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "GM_TextField.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet GM_TextField *textField;
 
 @end
 

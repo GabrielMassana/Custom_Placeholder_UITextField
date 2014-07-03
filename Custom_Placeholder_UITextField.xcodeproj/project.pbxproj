@@ -21,6 +21,8 @@
 		060C6F6F1965562800EB7E86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C6F511965562800EB7E86 /* UIKit.framework */; };
 		060C6F771965562800EB7E86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 060C6F751965562800EB7E86 /* InfoPlist.strings */; };
 		060C6F791965562800EB7E86 /* Custom_Placeholder_UITextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 060C6F781965562800EB7E86 /* Custom_Placeholder_UITextFieldTests.m */; };
+		060C6F841965563C00EB7E86 /* GM_TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 060C6F831965563C00EB7E86 /* GM_TextField.m */; };
+		060C6F861965589F00EB7E86 /* Georgia Belle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060C6F851965579D00EB7E86 /* Georgia Belle.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		060C6F741965562800EB7E86 /* Custom_Placeholder_UITextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Custom_Placeholder_UITextFieldTests-Info.plist"; sourceTree = "<group>"; };
 		060C6F761965562800EB7E86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		060C6F781965562800EB7E86 /* Custom_Placeholder_UITextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_Placeholder_UITextFieldTests.m; sourceTree = "<group>"; };
+		060C6F821965563C00EB7E86 /* GM_TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GM_TextField.h; sourceTree = "<group>"; };
+		060C6F831965563C00EB7E86 /* GM_TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GM_TextField.m; sourceTree = "<group>"; };
+		060C6F851965579D00EB7E86 /* Georgia Belle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Georgia Belle.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				060C6F621965562800EB7E86 /* ViewController.h */,
 				060C6F631965562800EB7E86 /* ViewController.m */,
 				060C6F651965562800EB7E86 /* Images.xcassets */,
+				060C6F821965563C00EB7E86 /* GM_TextField.h */,
+				060C6F831965563C00EB7E86 /* GM_TextField.m */,
+				060C6F851965579D00EB7E86 /* Georgia Belle.ttf */,
 				060C6F541965562800EB7E86 /* Supporting Files */,
 			);
 			path = Custom_Placeholder_UITextField;
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060C6F861965589F00EB7E86 /* Georgia Belle.ttf in Resources */,
 				060C6F661965562800EB7E86 /* Images.xcassets in Resources */,
 				060C6F581965562800EB7E86 /* InfoPlist.strings in Resources */,
 				060C6F611965562800EB7E86 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				060C6F641965562800EB7E86 /* ViewController.m in Sources */,
+				060C6F841965563C00EB7E86 /* GM_TextField.m in Sources */,
 				060C6F5E1965562800EB7E86 /* AppDelegate.m in Sources */,
 				060C6F5A1965562800EB7E86 /* main.m in Sources */,
 			);
